@@ -1,0 +1,96 @@
+@media screen and (max-width:933px) {
+    
+    .nav-list{
+        width: 100%;
+       
+   flex-direction: column;
+} 
+.navbar{
+   
+    flex-direction: column;
+    height: 470px;
+    transition: all 0.4s ease-in-out;
+  
+    }
+    .rightnav{
+        text-align: center;
+        margin-top: 5px;
+       padding: 5px;
+     
+    }
+    .nav-list li a{
+        padding:5px;
+    }
+    .burger{
+        display: block ;
+    }
+    .h-nav{
+        height: 70px;
+    }
+    .n-hide{
+        visibility: hidden;
+    }
+    .home-section{
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+    }
+    .rightside{
+        width: 100%;
+    }
+    .rightside img{
+        width: 60%;
+    }
+    .sec-section{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }.secLeft{
+        width: 100%; 
+        
+    }
+    .secRight{
+        width: 100%;
+    }
+    .coin-container{
+        width: auto;
+        height: auto;
+    }
+    table img{
+        width: 60%;
+    }
+    .articleRight{
+        flex-direction: column-reverse;
+    }
+.aRight,.aLeft{
+    width: auto;
+    height: auto;
+}
+.articleLeft{
+    flex-direction:column-reverse;
+}
+.about{
+    max-width: none;
+}
+.about .info h2{
+    font-size: 0.8rem;
+}
+
+.team-container{
+    flex-direction: column;
+    align-items: center;
+}
+.question-article{
+    max-width: 100%;
+}
+.foot-container{
+    display: block;
+    max-width: 100%;
+    text-align: center;
+}
+.social{
+display: flex;
+justify-content: center;
+   margin: auto;
+}
+    
+}

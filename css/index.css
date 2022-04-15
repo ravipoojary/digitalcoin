@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.center{
+    text-align: center;
+    padding: 15px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.logo{
+    display: flex;
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 35%;
+}
+header{
+    position: sticky;
+    top:0;
+    cursor: pointer;
+
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+   
+
+}
+.nav-list{
+    width: 45%;
+    display: flex;
+    align-items: center;
+}
+.nav-list li{
+    list-style: none;
+    padding: 20px 21px;
+    
+}
+.nav-list li a{
+    text-decoration: none;
+    font-size: 1rem;
+    color :white;
+    font-weight: 700;
+
+}
+.nav-list li :hover{
+    text-decoration: underline;
+    color: rgb(173, 169, 164);
+}
+.rightnav{
+    text-align: right;
+ width: 50%;
+}
+.rightnav{
+    text-align: right;
+    padding: 5px;
+
+}
+.rightnav a{
+    
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+
+}
+
+.bg{
+    background: rgba(0, 0, 0,0.7) url(../img/bg.jpg);
+    background-size:cover ;
+    background-blend-mode: darken;
+}
+.home-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    color: white;
+    margin: auto;
+  
+}
+.leftside{
+   max-width: 70%;
+   display: flex;
+   flex-direction: column;
+   font-family: 'Poppins', sans-serif;
+   text-align: left;
+   line-height: 1.5rem;
+   
+   
+}
+.rightside{
+    width: 25%;
+    
+    
+}
+.rightside img{
+    width: 65%;
+    display: block;
+    margin:auto;
+    
+}
+#email{
+    padding: 5px;
+    margin: 5px;
+    font-size: 0.8rem;
+    border-radius: 6px;
+}
+.btn{
+    padding: 5px;
+    margin: 5px 0;
+    font-size: 0.8rem;
+    background-color:#0052ff;
+    color: white;
+    border: 1px solid white ;
+    border-radius: 6px;
+}
+.table-container{
+    width: 70%;
+    margin: auto;
+}
+.top-coins{
+    text-align: center;
+}
+.sec-section{
+    max-width: 80%;
+    display :flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    margin: auto;
+ 
+}
+.secLeft{
+    width: 45%; 
+    
+}
+.secLeft img{
+    width: 100%;
+    
+}
+.secRight{
+    font-family: 'Poppins', sans-serif;
+    width: 55%; 
+    
+}
+.cointable{
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 60%;
+height: 100vh;
+margin: auto;
+text-align: center;
+color: white;
+}
+
+table img{
+    width: 22%;
+    
+    border-radius: 50%;
+    
+    
+}
+.cointable thead tr th{
+    padding: 15px;
+    width: 15%;
+}
+
+.coin{
+    
+    margin: auto;
+}
+tbody tr:hover{
+    background-color: rgb(213, 210, 206,0.5);
+}
+.codename{
+    color: gray;
+}
+
+.hide{
+    display: none;
+}
+.active{
+    display: block;
+}
+/* section nft */
+.nft-container{
+    font-family: 'Poppins', sans-serif;
+    max-width: 80%;
+    margin: auto;
+}
+.nft-container h1{
+    font-size: 1.5rem;
+    color: black;
+}
+.articleRight{
+    max-width: 100%;
+    height: 30%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aRight img{
+    width: 60%;
+   
+   
+}
+.aLeft{
+    width: 60%;
+    padding: 10px;
+}
+
+.aRight{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.articleLeft{
+    max-width: 100%;
+    height: 30%;
+    
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+.about{
+    max-width: 80%;
+    font-family: 'Poppins', sans-serif;
+ 
+    margin: auto;
+    
+}
+.about img{
+    width: 20%;
+    display: block;
+    margin: auto;
+}
+#About{
+    color: black;
+}
+.info{
+    text-align: center;
+    max-width: 70%;
+    margin: auto;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.team h1{
+    color: black;
+}
+.team-container{
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.card{
+    max-width: 200px;
+    height: auto;
+  
+}
+.card-img{
+    width:100% ;
+    height: auto;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-img img{
+    width: 65%;
+    margin: auto;
+    
+}
+.card-info{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin: 15px 0;
+}
+.card-info p{
+    font-size: 0.7rem;
+}
+/* faq section */
+   .faq{
+
+       font-family: 'Poppins', sans-serif;
+    }
+    .faq h1{
+       color: black;
+   }
+   .question-title{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 5px;
+        font-size: 0.8rem;
+        
+    }
+    .ans{
+        font-size: 0.9rem;
+    }
+    .ques-btn{
+        background: transparent;
+        border-color: transparent;
+        cursor: pointer;
+        font-size: 2rem;
+        
+        
+    }
+    
+    .question-article{
+        max-width: 60%;
+        margin:15px auto;
+    padding: 13px;
+    background-color:rgb(225 212 212 / 27%);
+
+}
+.ans{
+    display: none;
+}
+.show-text .ans{
+    display: block;
+}
+.u-icon{
+    display: none;
+}
+.show-text .u-icon{
+    display:inline;
+}
+.show-text .d-icon{
+    display: none;
+}
+/* footer */
+.foot-container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    max-width: 70%;
+    
+    margin: auto;
+    padding: 40px;
+    font-family: 'Poppins', sans-serif;
+    
+    color: white;
+    
+}
+.social{
+    max-width: 30%;
+    
+}
+.social a{
+    margin: 10px;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    transition: all 1s ease-in-out;
+}
+.social a:hover{
+    color:#5b657b;
+   
+   
+}
+.foot-container div h2{
+    font-size: 1rem;
+}
+.foot-container div p{
+    font-size: 0.7rem;
+}
+.burger{
+    display: none;
+    position: absolute;
+    right: 5%;
+    top: 15px;
+
+}
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 3px ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
